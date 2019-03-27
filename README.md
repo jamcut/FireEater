@@ -15,4 +15,4 @@ Open the solution file in Visual Studio and build the project.
 ![](./Example.png)
 
 ## Thanks
-Thanks to ![@harmj0y](https://twitter.com/harmj0y) for his implementation of subcommands and argument parsing used in ![Rubeus](https://github.com/GhostPack/Rubeus).  I copied that, nearly verbatim, for FireEater.  I am not sure if he came up with it, but his project was the first place I saw it, so I'll give him the credit.
+Thanks to [harmj0y](https://twitter.com/harmj0y) for his implementation of subcommands and argument parsing used in [Rubeus](https://github.com/GhostPack/Rubeus).  I copied that, nearly verbatim, for FireEater.  I am not sure if he came up with it, but his project was the first place I saw it, so I'll give him the credit.
