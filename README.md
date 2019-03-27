@@ -5,7 +5,7 @@ C# tool to interact with Windows firewall
 FireEater allows a user to interact with the Windows firewall through .NET APIs.  This is beneficial from a red team perspective as there are no calls to `netsh` which maybe logged and alerted on.  The best use case with the current functionality is blocking outbound traffic to specific IP addresses (AV, EDR, etc.)
 
 ## Gotchas
-* Currently all subcommands, with the exception of `enumerate`, require administrator permissions on the target endpoint.
+* All of the commands that modify (create, delete, enable, disable, etc.) require administrator permissions on the target endpoint.
 * This makes use of the "Windows Firewall with Advanced Security" API, so it will not work on systems < Windows 7 / Server 2008.
 
 ## Build
